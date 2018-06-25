@@ -1,0 +1,237 @@
+@media only screen {
+	html {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 18pt;
+		font-size: 3vw;
+		color: #414142;
+		text-align: center;
+	}
+
+	body{
+		position: relative;
+		display: inline-block;
+		text-align: left;
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 6vw;
+	}
+	
+	ul {
+		list-style-type: circle;
+		list-style-color:#FFD700;
+	}
+
+
+	p {
+		text-align: center;
+		line-height: 150%;
+		margin: 1.4vw 0;
+	}
+
+	a {
+		color: #e6ce7e;
+	}
+
+	a#logo {
+		display: block;
+		text-align: center;
+	}
+
+	a#logo img {
+		border: none;
+		width: 20vw;
+		margin: 3vw;
+		max-width: 80%;
+	}
+
+	#pricing {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		color: #e6ce7e;
+		font-size: 160%;
+		letter-spacing: 0.15vw;
+		text-transform: uppercase;
+	}
+
+	.detailTitle {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	div.dotBorder {
+		text-align: center;
+		border: dashed 2px #8a8a8a;
+		padding: 0.5vw;
+		margin: 4vw;
+		position: relative;
+		top: 4vw;
+	}
+
+	div.dotBorder.big {
+		margin: 0;
+		padding: 0 2vw;
+		padding-bottom: 2vw;
+	}
+	div.dotBorder ul{
+		margin: 0;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		padding: 0 3vw;
+	}
+
+	div.dotBorder ul li {
+		text-align: left;
+		line-height: 180%;
+		font-size: 62%;
+		margin-bottom: 1vw;
+	}
+
+	div.dotBorder ul li ul {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+
+	div.dotBorder ul li ul li {
+		font-size: 85%;
+		margin-top: 0.7vw;
+	}
+
+	div.borderText{
+		font-size: 105%;
+		display: inline-block;
+		background: #FFFFFF;
+		position: relative;
+		padding: 0 2vw;
+		letter-spacing: 0.2vw;
+	}
+
+	div.borderText.top {
+		top: -3vw;
+	}
+
+	div.borderText.bottom {
+		bottom: -2.5vw;
+		font-style: italic;
+		font-size: 14px;
+	}
+
+	a#button {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		background: #e6ce7e;
+		border: #c3af71 solid 0.4vw;
+		border-radius: 2vw;
+		color: #FFF;
+		font-weight:700;
+		letter-spacing: 0.5vw;
+		text-transform: uppercase;
+		margin: 10vw 4vw;
+		position: relative;
+		top: 4vw;
+		padding: 1.4vw 0;
+	}
+
+	footer {
+		font-size: 80%;
+		margin-top: 8vw;
+		text-align: center;
+	}
+
+	footer .callToAction {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		color: #e6ce7e;
+		letter-spacing: 0.15vw;
+	}
+
+	footer p {
+		font-size: 90%;
+	}
+}
+@media only screen and (min-width : 1200px) {
+	html {
+		font-size: 36px;
+	}
+
+
+	body {
+		max-width: 1200px;
+	}
+
+	p {
+		margin: 17px 0;
+	}
+
+	a#logo img {
+		width: 234px;
+		margin: 35px;
+	}
+
+	#pricing {
+		letter-spacing: 1.75px;
+	}
+
+	.dotBorder {
+		padding: 6px;
+		margin: 47px;
+		top: 47px;
+	}
+
+	.dotBorder.big {
+		padding: 0 23px;
+		padding-bottom: 23px;
+	}
+
+	div.dotBorder ul{
+		padding: 0 35px;
+	}
+
+
+	div.dotBorder ul li {
+		margin-bottom: 12px;
+	}
+
+
+	div.dotBorder ul li ul li {
+		margin-top: 8px;
+	}
+
+	div.borderText{
+		padding: 0 23px;
+		letter-spacing: 2px;
+	}
+
+	div.borderText.top {
+		top: -35px;
+	}
+
+	div.borderText.bottom {
+		bottom: -29px;
+	}
+
+	a#button {
+		border: #c3af71 solid 4px;
+		border-radius: 23px;
+		letter-spacing: 6px;
+		margin: 117px 47px;
+		top: 47px;
+		padding: 16px 0;
+	}
+
+	footer {
+		margin-top: 94px;
+	}
+
+	footer .callToAction {
+		letter-spacing: 1.75px;
+	}
+
+
+
+
+}
